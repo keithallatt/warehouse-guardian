@@ -40,7 +40,7 @@ public class MainMenu : MonoBehaviour
     // initiates the pause scene to pause the game
     void Pause()
     {
-        pauseMenuID.SetActive(true);
+        //pauseMenuID.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
@@ -48,7 +48,7 @@ public class MainMenu : MonoBehaviour
     // sets the pause scene off to resume the game
     void Resume()
     {
-        pauseMenuUI.SetActive(false);
+        //pauseMenuUI.SetActive(false);
         Time.timeScale = 0f;
         GameIsPaused = false;
     }

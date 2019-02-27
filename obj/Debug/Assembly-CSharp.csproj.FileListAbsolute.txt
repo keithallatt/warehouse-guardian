@@ -159,7 +159,6 @@
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.dll
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SharedInternalsModule.dll
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SpatialTracking.dll
-/Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SpatialTrackingModule.dll
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SpriteMaskModule.dll
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SpriteShapeModule.dll
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.StreamingModule.dll
@@ -270,8 +269,6 @@
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.ScreenCaptureModule.xml
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SharedInternalsModule.dll.mdb
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SharedInternalsModule.xml
-/Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SpatialTrackingModule.dll.mdb
-/Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SpatialTrackingModule.xml
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SpriteMaskModule.dll.mdb
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SpriteMaskModule.xml
 /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian/Temp/bin/Debug/UnityEngine.SpriteShapeModule.dll.mdb

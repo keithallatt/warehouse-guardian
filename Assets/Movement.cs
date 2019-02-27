@@ -11,7 +11,13 @@ public class Movement : MonoBehaviour
     int frameCount;
 
     // path that the enemy will follow along.
-    Vector3[] path;
+
+    // (x, y, 0) as positions
+    // these don't change.
+
+    public Vector2[] path_2D;
+    private Vector3[] path;
+
     // which position in path is the enemy at.
     int cycleIndex;
 
@@ -29,18 +35,10 @@ public class Movement : MonoBehaviour
         frameCount = 0;
         cycleIndex = 0;
 
-        // (x, y, 0) as positions
-        // these don't change.
-        path = new Vector3[] {
-            new Vector3(0, -2, 0),
-            new Vector3(1, -2, 0),
-            new Vector3(2, -2, 0),
-            new Vector3(3, -2, 0),
-            new Vector3(4, -2, 0),
-            new Vector3(3, -2, 0),
-            new Vector3(2, -2, 0),
-            new Vector3(1, -2, 0)
-        };
+        // convert 2d to 3d
+        path = new Vector3[path_2D.Length];
+        for (int i = 0; i < path_2D.Length; i++)
+            path[i] = new Vector3(path_2D[i].x, path_2D[i].y, 0);
     }
 
     // Update is called once per frame
