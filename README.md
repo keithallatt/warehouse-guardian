@@ -9,3 +9,10 @@ Team Members:
 - Danny R
 
 This is the code repository for the Unity based project named Warehouse Guardian.
+
+## Warehouse Guardian
+
+## Installation
+
+
+## How to play
