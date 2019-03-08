@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 1105
-  m_MinSize: {x: 679, y: 498}
-  m_MaxSize: {x: 14002, y: 14048}
+  m_MinSize: {x: 681, y: 498}
+  m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 1527
+  controlID: 2670
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
-  controlID: 1528
+  controlID: 2671
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 1529
+  controlID: 2672
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -383,9 +383,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 66110000
-      m_LastClickedID: 4454
-      m_ExpandedIDs: c2fbffff541100007611000080110000
+      m_SelectedIDs: 16310000
+      m_LastClickedID: 12566
+      m_ExpandedIDs: d4f7ffffe6f7ffffd4fbffff88110000aa110000b4110000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -552,20 +552,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Packages
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ffffff7f
-    m_LastClickedID: 2147483647
-    m_ExpandedIDs: 00000000c8090000ac0f0000b22e0000b42e000000ca9a3b
+    m_SelectedIDs: 84090000
+    m_LastClickedID: 2436
+    m_ExpandedIDs: 0000000084090000ca090000cc0f0000ea2e0000ec2e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -593,7 +593,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c8090000ac0f0000b22e0000b42e000000ca9a3b
+    m_ExpandedIDs: 0000000084090000ca090000cc0f0000ea2e0000ec2e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

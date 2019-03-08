@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
     // how many frames to wait until another movement is taken.
     // analogous to speed, but higher FPM is slower and lower FPM is faster.
-    int framesPerMovement;
+    public int framesPerMovement;
     // how many frames have passed since the last movement
     int frameCount;
 
@@ -30,8 +30,6 @@ public class Movement : MonoBehaviour
 
     // Start is called before the first frame update
     void Start() {
-        // initial conditions
-        framesPerMovement = 30;
         frameCount = 0;
         cycleIndex = 0;
 
