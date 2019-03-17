@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 1105
-  m_MinSize: {x: 681, y: 474}
-  m_MaxSize: {x: 14002, y: 14024}
+  m_MinSize: {x: 679, y: 474}
+  m_MaxSize: {x: 14000, y: 14024}
   vertical: 0
-  controlID: 2197
+  controlID: 281
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 474}
   m_MaxSize: {x: 10000, y: 14024}
   vertical: 1
-  controlID: 2198
+  controlID: 240
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 2199
+  controlID: 206
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,7 +212,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: bcfbffffae120000
+      m_ExpandedIDs: d4fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -297,9 +297,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4, y: -3, z: 0}
+    m_Target: {x: 12.237237, y: -0.52715385, z: -5.5332165}
     speed: 2
-    m_Value: {x: 4, y: -3, z: 0}
+    m_Value: {x: 12.237237, y: -0.52715385, z: -5.5332165}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -331,9 +331,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.3566716
+    m_Target: 18.363289
     speed: 2
-    m_Value: 2.3566716
+    m_Value: 18.363289
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -463,7 +463,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 4842
+  m_LastSelectedObjectID: 4762
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -529,20 +529,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Warehouse Guardian Assets
+    - Assets/Box
   m_ViewMode: 1
   m_StartGridSize: 61
   m_LastFolders:
-  - Assets/Warehouse Guardian Assets
+  - Assets/Box
   m_LastFoldersGridSize: 61
-  m_LastProjectPath: /Users/kallatt/Documents/UTM/2018-2019 year/2019 Winter/CSC290/WarehouseGuardian
+  m_LastProjectPath: /Users/kallatt/Documents/UTM/Winter2019/CSC290/WarehouseGuardian
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8e100000
-    m_LastClickedID: 4238
-    m_ExpandedIDs: 0000000088090000e8090000543000005630000000ca9a3b
+    m_SelectedIDs: 9a0a0000
+    m_LastClickedID: 2714
+    m_ExpandedIDs: 000000008a090000ea0900005c3000005e30000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -570,7 +570,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000088090000e8090000543000005630000000ca9a3b
+    m_ExpandedIDs: 000000008a090000ea0900005c3000005e30000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -595,9 +595,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: ea120000
-    m_LastClickedInstanceID: 4842
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: aafbffff
+    m_LastClickedInstanceID: -1110
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000202e0000682c0000d63500006a32000000000000640f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
