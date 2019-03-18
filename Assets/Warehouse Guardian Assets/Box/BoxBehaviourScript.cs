@@ -9,14 +9,31 @@ public class BoxBehaviourScript : MonoBehaviour
     public Rigidbody rb;
     Rigidbody m_Rigidbody;
     float m_Speed;
-
+    int count;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         m_Speed = 10.0f;
         m_Rigidbody = GetComponent<Rigidbody>();
+        count = 0;
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("end point"))
+        {
+            count = count + 1;
+            SetCountText();
+        }
     }
 
+    void SetCountText()
+    {
+        countText.text = "Count: " + count.ToString();
+        if (count >= 12)
+        {
+            winText.text = "You Win!";
+        }
+    }
     // Update is called once per frame
     void Update()
     {
