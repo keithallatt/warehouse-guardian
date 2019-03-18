@@ -51,6 +51,13 @@ Once the project opens, (Unity projects take time to open. Give it a few minutes
 
 Users can control the main player avatar using the arrow keys (&uparrow;, &downarrow;, &leftarrow;, &rightarrow;) or the W, A, S, D keys. Players can interact with various objects such as boxes and enemies. 
 
+|              | Button            | Alternate      |
+|--------------|-------------------|----------------|
+| Move up      | <kbd>up</kbd>     | <kbd>W</kbd>   |
+| Move left    | <kbd>left</kbd>   |  <kbd>A</kbd>  |
+| Move right   | <kbd>right</kbd>  |  <kbd>S</kbd>  |
+| Move down    | <kbd>down</kbd>   |  <kbd>D</kbd>  |
+
 ### Objective
 
 Your objective is to get each box to a box endpoint. If you don't get them to the endpoint by the end of the night, you'll lose your job!
