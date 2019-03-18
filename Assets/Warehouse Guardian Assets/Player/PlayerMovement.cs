@@ -30,6 +30,6 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("iswalking", false);
         }
 
-        rbody.MovePosition (rbody.position + movement_vector * Time.deltaTime); //moving over 1 meter per 60 frames
+        rbody.MovePosition (rbody.position + movement_vector * Time.deltaTime*5); //moving over 1 meter per 60 frames
     }
 }
