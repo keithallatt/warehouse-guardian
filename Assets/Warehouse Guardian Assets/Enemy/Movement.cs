@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -57,32 +58,44 @@ public class Movement : MonoBehaviour
             cycleIndex += 1;
             cycleIndex %= path.Length;
 
-            int lastX = (int)transform.position.x;
-            int lastY = (int)transform.position.y;
-
 
             // move sprite
             transform.position = path[cycleIndex];
 
-            int newX = (int)transform.position.x;
-            int newY = (int)transform.position.y;
+            int lastX = (int)transform.position.x;
+            int lastY = (int)transform.position.y;
+
+            Vector3 next = path[(cycleIndex + 1) % path.Length];
+
+
+            int newX = (int)next.x;
+            int newY = (int)next.y;
 
             int xD = newX - lastX;
             int yD = newY - lastY;
 
 
-            if (xD == 1 && yD == 0) { // pos x
+            if (xD > 0 && Math.Abs(xD) > Math.Abs(yD)) { // pos x
                 animator.Play("right");
             } 
-            else if (xD == -1 && yD == 0) { // neg x
+            else if (xD < 0 && Math.Abs(xD) > Math.Abs(yD)) { // neg x
                 animator.Play("left");
             }
-            else if (xD == 0 && yD == 1) { // pos y
+            else if (yD > 0 && Math.Abs(xD) < Math.Abs(yD)) { // pos y
                 animator.Play("back");
             }
-            else if (xD == 0 && yD == -1) { // neg y
+            else if (yD < 0 && Math.Abs(xD) < Math.Abs(yD)) { // neg y
                 animator.Play("forward");
             }
+        } else {
+            Vector3 before = path[cycleIndex];
+            Vector3 after = path[(cycleIndex + 1) % path.Length];
+
+            transform.position = new Vector3(
+                before.x * (1 - ((float)frameCount / (float)framesPerMovement)) + after.x * ((float)frameCount / (float)framesPerMovement),
+                before.y * (1 - ((float)frameCount / (float)framesPerMovement)) + after.y * ((float)frameCount / (float)framesPerMovement),
+                0
+                );
         }
 
     }
