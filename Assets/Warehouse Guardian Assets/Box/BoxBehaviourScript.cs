@@ -22,18 +22,10 @@ public class BoxBehaviourScript : MonoBehaviour
         if (other.gameObject.CompareTag("end point"))
         {
             count = count + 1;
-            SetCountText();
+            
         }
     }
 
-    void SetCountText()
-    {
-        countText.text = "Count: " + count.ToString();
-        if (count >= 12)
-        {
-            winText.text = "You Win!";
-        }
-    }
     // Update is called once per frame
     void Update()
     {
