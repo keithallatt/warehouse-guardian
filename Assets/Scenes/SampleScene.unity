@@ -36552,6 +36552,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5071303279610757441}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &775078044 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7952144527741580758, guid: a41c0ad8745eb41c6a8ebf30219cb63a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5071303279610757441}
+  m_PrefabAsset: {fileID: 0}
 --- !u!61 &775078045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -61734,7 +61740,7 @@ Transform:
   - {fileID: 1387950701}
   - {fileID: 877175739}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1268478451
 GameObject:
@@ -73008,6 +73014,7 @@ Transform:
   - {fileID: 777316804}
   - {fileID: 221152233}
   - {fileID: 624987707}
+  - {fileID: 775078044}
   m_Father: {fileID: 1181215225}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -85726,7 +85733,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1653429166
 Rigidbody2D:
@@ -120959,7 +120966,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1440123587}
     m_Modifications:
     - target: {fileID: 7952144527741580779, guid: a41c0ad8745eb41c6a8ebf30219cb63a,
         type: 3}
@@ -120969,12 +120976,12 @@ PrefabInstance:
     - target: {fileID: 7952144527741580758, guid: a41c0ad8745eb41c6a8ebf30219cb63a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.73
+      value: 10.73
       objectReference: {fileID: 0}
     - target: {fileID: 7952144527741580758, guid: a41c0ad8745eb41c6a8ebf30219cb63a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.47
+      value: -7.4699993
       objectReference: {fileID: 0}
     - target: {fileID: 7952144527741580758, guid: a41c0ad8745eb41c6a8ebf30219cb63a,
         type: 3}
@@ -121004,7 +121011,7 @@ PrefabInstance:
     - target: {fileID: 7952144527741580758, guid: a41c0ad8745eb41c6a8ebf30219cb63a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7952144527741580758, guid: a41c0ad8745eb41c6a8ebf30219cb63a,
         type: 3}
