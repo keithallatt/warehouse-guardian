@@ -53,4 +53,5 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Visual Studio 2015 cache/options directory
 .vs/
