@@ -60,6 +60,8 @@ Users can control the main player avatar using the arrow keys (&uparrow;, &downa
 
 ### Objective
 
+![](__documentation__/gameElements.png)
+
 Your objective is to get each box to a box endpoint. If you don't get them to the endpoint by the end of the night, you'll lose your job!
 
 But be careful! There are dragons patrolling the warehouse! The dragons are bullies that will push you around and mess up your progress. Make sure to avoid them!
