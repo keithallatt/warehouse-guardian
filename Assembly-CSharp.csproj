@@ -60,11 +60,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ChangeVolume.cs" />
-    <Compile Include="Assets\DontDestroy.cs" />
-    <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\Warehouse Guardian Assets\Box\BoxBehaviourScript.cs" />
     <Compile Include="Assets\Warehouse Guardian Assets\Enemy\Movement.cs" />
+    <Compile Include="Assets\Warehouse Guardian Assets\Menus\ChangeVolume.cs" />
+    <Compile Include="Assets\Warehouse Guardian Assets\Menus\DontDestroy.cs" />
+    <Compile Include="Assets\Warehouse Guardian Assets\Menus\MainMenu.cs" />
+    <Compile Include="Assets\Warehouse Guardian Assets\Menus\PrevNextButtonS.cs" />
     <Compile Include="Assets\Warehouse Guardian Assets\Player\PlayerMovement.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
