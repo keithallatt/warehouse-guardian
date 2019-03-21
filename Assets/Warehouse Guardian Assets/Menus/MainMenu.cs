@@ -1,13 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
     public void QuitGame()
     {
-        // exits game depending on if is run on the editor
+        // Since Application.Quit() doesn't work in the editor
         #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
         #else
