@@ -38,4 +38,5 @@ public class PlayerMovement : MonoBehaviour
 
         rbody.MovePosition (rbody.position + movement_vector * Time.deltaTime*5); //moving over 1 meter per 60 frames
     }
+  
 }
