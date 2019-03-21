@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class BoxBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+ 
     public float thrust;
     public Rigidbody rb;
     Rigidbody m_Rigidbody;
     float m_Speed;
     int count;
+    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         m_Speed = 10.0f;
-        m_Rigidbody = GetComponent<Rigidbody>();
-        count = 0;
+              count = 0;
     }
+    // counts number of times a box meets its end point
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("end point"))
         {
             count = count + 1;
-            
         }
     }
 
