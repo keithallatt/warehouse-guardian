@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // to quit the game
     public void QuitGame()
     {
-        Application.Quit();
-        Debug.Log("QUIT!");
+        // exits game depending on if is run on the editor
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
     }
-   
 }
  

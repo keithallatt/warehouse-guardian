@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class DontDestroy : MonoBehaviour
 {
-    // plays music on main menu
+    // continuously plays music on main menu upon running game
     void Awake()
     {
         GameObject[] objs = GameObject.FindGameObjectsWithTag("menuMusic");
