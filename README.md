@@ -66,4 +66,6 @@ Your objective is to get each box to a box endpoint. If you don't get them to th
 
 But be careful! There are dragons patrolling the warehouse! The dragons are bullies that will push you around and mess up your progress. Make sure to avoid them!
 
+# Additional Documentation
 
+There is additional documentation for the purposes of the assignment given in CSC290. These can be found [here](__documentation__/project_documentations/).
