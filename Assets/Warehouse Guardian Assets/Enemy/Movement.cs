@@ -35,6 +35,8 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Vector3 location = transform.position;
+
         animator = GetComponent<Animator>();
 
         frameCount = 0;
@@ -43,7 +45,7 @@ public class Movement : MonoBehaviour
         // convert 2d to 3d
         path = new Vector3[path_2D.Length];
         for (int i = 0; i < path_2D.Length; i++)
-            path[i] = new Vector3(path_2D[i].x, path_2D[i].y, 0);
+            path[i] = new Vector3(path_2D[i].x + location.x, path_2D[i].y + location.y, 0);
     }
 
     // Update is called once per frame
