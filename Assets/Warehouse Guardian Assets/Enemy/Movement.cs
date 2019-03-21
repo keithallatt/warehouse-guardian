@@ -24,6 +24,10 @@ public class Movement : MonoBehaviour
 
     private Animator animator;
 
+    public float waitToReload; //how long it will take to reload game
+    public bool reloading;
+    public GameObject thePlayer;
+
 
     // will be implemented as soon as player characters are introduced.
     // enemies are simpler to implement movement, so they were done first.
@@ -97,6 +101,29 @@ public class Movement : MonoBehaviour
                 0
                 );
         }
+        if (reloading)
+        {
+            waitToReload -= Time.deltaTime;
+            if (waitToReload < 0)
+            {
+                Application.LoadLevel(Application.loadedLevel);
+                thePlayer.SetActive(true);
+            }
+        }
 
+
+    }
+
+    void OnCollisionEnter2D(Collision2D other)
+    {
+
+        if (other.gameObject.name == "Player")
+        { 
+            other.gameObject.SetActive(false);
+            reloading = true;
+            thePlayer = other.gameObject;
+        }
+
+        
     }
 }
