@@ -11,7 +11,7 @@ public class ChangeVolume : MonoBehaviour
     // manipulates volume according to slider 
     void Update()
     {
-        myMusic.volume = Volume.value;
+        myMusic.volume = Volume.value / 8;
     }
 }
 
